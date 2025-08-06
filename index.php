@@ -3,8 +3,8 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Telegram\Bot\Api;
 
-$bot = new Api('YOUR_TELEGRAM_BOT_TOKEN');
-$admin_ids = [123456789]; // Replace with your Telegram user ID(s)
+$bot = new Api('8456859662:AAHDfCidmiL-JjMhyGN596uefJlSmWzp4qY');
+$admin_ids = [1162795130]; // Replace with your Telegram user ID(s)
 $usersFile = __DIR__ . '/users.json';
 
 // Ensure users.json exists and is writable
@@ -145,3 +145,4 @@ elseif ($text == "⬅️ Back") {
 // Add other admin/user routes as desired (pending, approve, add...)
 
 ?>
+
